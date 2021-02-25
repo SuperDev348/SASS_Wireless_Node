@@ -1,0 +1,9 @@
+node_modules
+config
+
+# Ignore all files starting with "."
+.env
+
+
+# Don't ignore .gitignore
+!.gitignore
