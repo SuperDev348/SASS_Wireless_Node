@@ -30,7 +30,7 @@ module.exports = {
       })
       const To = new Date(timeTo)
       const From = new Date(timeFrom)
-      const data = bytesUsages.filter((usage) => {
+      const data = bytesUsages.filter((usage) => {     
         const date = new Date(usage.created_at)
 
         return date >= From && date <= To
