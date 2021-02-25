@@ -10,7 +10,7 @@ const router = express.Router()
 // Note: left this endpoint without the '/api' to keep compatibility with the current use case: POST to '/'
 router.use('/', APIv1)
 
-// V1     
+// V1
 router.use('/api/v1', APIv1)
 
 module.exports = router

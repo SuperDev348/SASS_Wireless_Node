@@ -14,7 +14,7 @@ module.exports = {
     }
   },
 
-  assignCompany: async (req, res) => {     
+  assignCompany: async (req, res) => {
     try {
       const company = await Company.findByPk(req.body.companyId)
 
