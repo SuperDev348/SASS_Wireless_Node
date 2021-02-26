@@ -20,7 +20,7 @@ module.exports = {
       bytesUsages = await router.getBytesUsages({
         order: [
           ['created_at', 'ASC']
-        ],
+        ],     
         attributes: ['bytes_in', 'bytes_out', 'deviceId', 'created_at'],
         include: [{
           model: Device,
