@@ -8,4 +8,4 @@ router.get('/:id/edit', controller.getById)
 router.put('/:id', controller.update)
 router.post('/', controller.add)
 
-module.exports = router      
+module.exports = router

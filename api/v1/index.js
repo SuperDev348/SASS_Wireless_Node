@@ -8,7 +8,7 @@ const cities = require('./cities')
 const companies = require('./companies')
 const devices = require('./devices')
 const routers = require('./routers')
-const bytesUsage = require('./bytes-usage')     
+const bytesUsage = require('./bytes-usage')
 
 /*
 |---------------------------------------------------------------------
