@@ -4,6 +4,6 @@ const controller = require('./controller')
 
 router.get('/', controller.index)
 router.post('/assign-company', controller.assignCompany)
-router.put('/:id', controller.update)     
+router.put('/:id', controller.update)
 
 module.exports = router

@@ -11,6 +11,6 @@ const router = express.Router()
 router.use('/', APIv1)
 
 // V1
-router.use('/api/v1', APIv1)      
+router.use('/api/v1', APIv1)
 
 module.exports = router

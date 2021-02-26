@@ -13,7 +13,7 @@ module.exports = {
       })
 
       res.status(200).send(users)
-    } catch (err) {      
+    } catch (err) {
       res.status(500).send({ message: err.message })
     }
   },
